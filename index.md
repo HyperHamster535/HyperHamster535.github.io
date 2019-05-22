@@ -1,4 +1,4 @@
-### Menu
+# Menu
 
 ## [Home](Home.md)
 ## [Projects](Projects.md)
