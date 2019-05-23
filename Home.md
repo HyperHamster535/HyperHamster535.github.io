@@ -1,6 +1,9 @@
 # [☰](index.md) Home
 
+<img src="logo.png">
 
+## Welcome to my site!
+Welcome to the official site of HyperHamster534! Here you can find all my projects, as well as links to the various other things I do. To get started, just click the ☰ icon.
 
 ## Latest News
 ### [PyWireframe is now live!](Blog.md)
