@@ -1,6 +1,6 @@
 # [☰](index.md) Home
 
-<img src="banner.png">
+<img src="banner.PNG">
 
 ## Welcome to my site!
 Welcome to the official site of HyperHamster534! Here you can find all my projects, as well as links to the various other things I do. To get started, just click the ☰ icon.
