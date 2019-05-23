@@ -3,7 +3,8 @@
 
 
 ## Latest News
-### [PyWireframe is now live!](blog.md)
+### [PyWireframe is now live!](Blog.md)
+15/05/2019
 
 ## YouTube
 I have a YouTube channel with barely any subscribers and semi decent content. Enjoy!
