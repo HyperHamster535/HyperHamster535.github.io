@@ -10,8 +10,10 @@
 		<link rel="stylesheet" type="text/css" href="css/iconspecs.css">
 		<link rel="stylesheet" type="text/css" href="css/text.css">
 		<link rel="stylesheet" type="text/css" href="css/content.css">
+		<link rel="stylesheet" type="text/css" href="css/projectsmenu.css">
 	</head>
-	<body>
+	
+	<body onload="menu()">
 	
 	<script src="js/navbar.js"></script>
 	<div class="topnav" id="myTopnav">
@@ -28,10 +30,31 @@
 		<h2>The stuff I make</h2>
 	</div>
 	
-	<div class="section light">
+		<script src="js/projectsmenu.js"></script>
+		<input results=5 type="search" id="mySearch" onkeyup="menu()" placeholder="Search.." title="Type in a category">
+		<span class="underline"></span>
+		
+		<ul id="myMenu">
+			<li><a href="#PyWireframe">PyWireframe</a></li>
+			<li><a href="#ThisSite">This website</a></li>
+		</ul>
+	
+	<div name="PyWireframe" class="section white">
 		<h2>PyWireframe</h2>
 		<p>PyWireframe is a really bad 3D WireFrame renderer I made in Python.</p>
+		<button class="greyed" align=center';">More info</button>
+	</div>
+	
+	<div name="BlackBox" class="section light">
+		<h2>BlackBox</h2>
+		<p>The BlackBox is an automated robot that's basically a box on wheels. I'm working on it with a friend.</p>
 		<button class="color" align=center onclick="window.location.href = 'https://hyperhamster535.github.io/PyWireframe/';">More info</button>
+	</div>
+	
+	<div name="ThisSite" class="section dark">
+		<h2>This website</h2>
+		<p>You're currently looking at the fourth iteration of my website. I still have the second version, and you can see it below.</p>
+		<button class="color" align=center onclick="window.location.href = 'projects/OldWebsite/index.html';">My old website</button>
 	</div>
 	
 	</body>

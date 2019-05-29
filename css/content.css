@@ -33,6 +33,12 @@ body {
 	color: black;
 }
 
+.greyed {
+	background-color: lightgrey;
+	color: grey;
+	cursor: default;
+}
+
 button {
 	border: none;
 	height: 36px;
@@ -42,6 +48,7 @@ button {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	display: block;
 	margin: 0 auto;
+	cursor: pointer;
 }
 }
 
