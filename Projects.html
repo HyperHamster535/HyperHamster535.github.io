@@ -3,27 +3,46 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>HyperHamster534|Projects</title>
+		<title>HyperHamster534 | Projects</title>
 		
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/navbar.css">
 		<link rel="stylesheet" type="text/css" href="css/iconspecs.css">
-		<link rel="stylesheet" type="text/css" href="css/text.css">
 		<link rel="stylesheet" type="text/css" href="css/content.css">
 		<link rel="stylesheet" type="text/css" href="css/projectsmenu.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-green.min.css" />
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 	</head>
 	
 	<body onload="menu()">
 	
-	<script src="js/navbar.js"></script>
-	<div class="topnav" id="myTopnav">
-		<a href="Home.html" class="active">Home</a>
-		<a href="Projects.html">Projects</a>
-		<a href="About.html">About</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			<i class="material-icons">menu</i>
-		</a>
-	</div>
+	<!-- Always shows a header, even in smaller screens. -->
+			<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+				<header class="mdl-layout__header">
+					<div class="mdl-layout__header-row">
+						<!-- Title -->
+						<span class="mdl-layout-title">HyperHamster534</span>
+						<!-- Add spacer, to align navigation to the right -->
+						<div class="mdl-layout-spacer"></div>
+						<!-- Navigation. We hide it in small screens. -->
+						<nav class="mdl-navigation mdl-layout--large-screen-only">
+							<a class="mdl-navigation__link" href="Home.html">Home</a>
+							<a class="mdl-navigation__link" href="Projects.html">Projects</a>
+							<a class="mdl-navigation__link" href="About.html">About</a>
+						</nav>
+					</div>
+				</header>
+				<div class="mdl-layout__drawer">
+					<span class="mdl-layout-title">Menu</span>
+					<nav class="mdl-navigation">
+						<a class="mdl-navigation__link" href="Home.html">Home</a>
+						<a class="mdl-navigation__link" href="Projects.html">Projects</a>
+						<a class="mdl-navigation__link" href="About.html">About</a>
+					</nav>
+				</div>
+				<main class="mdl-layout__content">
+					<div class="page-content">
+	
 	
 	<div id="header" class="color">
 		<h1>Projects</h1>
@@ -31,32 +50,42 @@
 	</div>
 	
 		<script src="js/projectsmenu.js"></script>
-		<input results=5 type="search" id="mySearch" onkeyup="menu()" placeholder="Search.." title="Type in a category">
+		
+		<form style="text-align:center" action="#">
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+				<input id="mySearch" class="mdl-textfield__input" type="text" onkeyup="menu()">
+				<label class="mdl-textfield__label" for="myMenu">Search...</label>
+			</div>
+		</form>
 		<span class="underline"></span>
 		
 		<ul id="myMenu">
-			<li><a href="#PyWireframe">PyWireframe</a></li>
-			<li><a href="#ThisSite">This website</a></li>
+			<li class="mdl-list__item"><a href="#PyWireframe">PyWireframe</a></li>
+			<li class="mdl-list__item"><a href="#ThisSite">This website</a></li>
+			<li class="mdl-list__item"><a href="#BlackBox">BlackBox</a></li>
 		</ul>
 	
-	<div name="PyWireframe" class="section white">
-		<h2>PyWireframe</h2>
+	<div class="section white">
+		<h2 name="PyWireframe">PyWireframe</h2>
 		<p>PyWireframe is a really bad 3D WireFrame renderer I made in Python.</p>
 		<button class="color" align=center onclick="window.location.href = 'https://hyperhamster535.github.io/PyWireframe/';">More info</button>
 	</div>
 	
-	<div name="BlackBox" class="section light">
-		<h2>BlackBox</h2>
+	<div class="section light">
+		<h2 name="BlackBox">BlackBox</h2>
 		<p>The BlackBox is an automated robot that's basically a box on wheels. I'm working on it with a friend.</p>
-		<button class="greyed" align=center';">More info</button>
-		
+		<button class="greyed" align=center';>More info</button>		
 	</div>
 	
-	<div name="ThisSite" class="section dark">
-		<h2>This website</h2>
+	<div class="section dark">
+		<h2 name="ThisSite">This website</h2>
 		<p>You're currently looking at the fourth iteration of my website. I still have the second version, and you can see it below.</p>
 		<button class="color" align=center onclick="window.location.href = 'projects/OldWebsite/index.html';">My old website</button>
 	</div>
+	
+	</div>
+				</main>
+			</div>
 	
 	</body>
 </html>
