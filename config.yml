@@ -1,2 +1,3 @@
 name: HyperHamster534 - Official Site
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
