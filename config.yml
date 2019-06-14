@@ -1,3 +1,16 @@
 name: HyperHamster534 - Official Site
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+# Site settings
+description: The official site of HyperHamster534
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://hyperhamster535.github.io" # the base hostname & protocol for your site 
+
+# User settings
+username: HyperHamster534
+user_description: nothing to see here
+user_title: HyperHamster534
+email: anon@anon.com
+twitter_username: HHamster534
+github_username:  HyperHamster535
