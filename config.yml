@@ -1,16 +1,43 @@
 name: HyperHamster534 - Official Site
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: 
 
 # Site settings
 description: The official site of HyperHamster534
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://hyperhamster535.github.io" # the base hostname & protocol for your site 
 
 # User settings
 username: HyperHamster534
 user_description: nothing to see here
 user_title: HyperHamster534
-email: anon@anon.com
+email: hyperhamster534@outlook.com
 twitter_username: HHamster534
 github_username:  HyperHamster535
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:day/:title
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /Home
+  - title: Projects
+    url: /Projects
+  - title: About
+    url: /About
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
