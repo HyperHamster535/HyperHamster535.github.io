@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -28,12 +28,12 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: teal;
   color: white;
 }
 
@@ -65,21 +65,33 @@ body {
 </style>
   </head>
   <body>
-    <div class="topnav" id="myTopnav">
-  <a href="/" class="active">Home</a>
-  <a href="/Projects">Projects</a>
-  <a href="/blog">Blog</a>
-  <a href="/About">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-    <h1>{{ page.title }}</h1>
-    <section>
+  
+  <script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>
+    
+	<div class="topnav" id="myTopnav">
+		<a href="/" class="active">Home</a>
+		<a href="/Projects">Projects</a>
+		<a href="/blog">Blog</a>
+		<a href="/About">About</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+    
+	<h1 style="padding: 20px;">{{ page.title }}</h1>
+    
+	<section style="padding: 20px;">
       {{ content }}
     </section>
-    <footer>
-      &copy; to me
-    </footer>
+
   </body>
 </html>
