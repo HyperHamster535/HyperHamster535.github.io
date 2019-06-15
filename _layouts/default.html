@@ -13,18 +13,25 @@
 		<script src="https://code.iconify.design/1/1.0.2/iconify.min.js"></script>	
 
 		<style>
-			.heading {
-				font-size: 5em;
+			.page-header {
+				width: 100%; bg-color: #24292e; color: #0366d6;
 			}
 		</style>
 
 	</head>
 	
 	<body>
-		{% include navbar.html %}
-
-		<h1 style="width: 100%; bg-color: #24292e; color: #0366d6;" class="px-3 header">{{ page.title }}</h1>
-    
+	
+		<header>
+			
+			{% include navbar.html %}
+			
+			<div class="page-header">
+				<h1 style="" class="px-3 header">{{ page.title }}</h1>
+			</div>
+			
+		</header>
+		
 		<section class="p-4">
 			{{ content }}
 		</section>
