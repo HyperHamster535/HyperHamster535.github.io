@@ -15,9 +15,6 @@
 		<style>
 			.heading {
 				font-size: 5em;
-				width: 100%;
-				bg-color: #24292e;
-				color: #0366d6;
 			}
 		</style>
 
@@ -26,7 +23,7 @@
 	<body>
 		{% include navbar.html %}
 
-		<h1 class="px-3 header">{{ page.title }}</h1>
+		<h1 style="width: 100%; bg-color: #24292e; color: #0366d6;" class="px-3 header">{{ page.title }}</h1>
     
 		<section class="p-4">
 			{{ content }}
