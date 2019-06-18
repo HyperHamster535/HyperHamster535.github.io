@@ -15,5 +15,8 @@ github:
     path: "/"
   repository_url: "https://github.com/hyperhamster535.github.io"
   
+gems:
+  - jekyll-octicons
+  
 title: HyperHamster534
 description: The official site of HyperHamster534.
