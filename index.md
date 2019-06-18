@@ -10,6 +10,7 @@ title: Home
 Welcome to my site! Here you can find links to the various things I do.
 
 ## Youtube
+
 I have a YouTube channel with barely any subscribers and semi decent content. Enjoy!
 
 <button name="button" onclick="window.location.href='https://www.youtube.com/channel/UCs6xm-dG9-NVL9UDl_kdGHQ'">My Channel</button>
