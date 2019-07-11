@@ -6,6 +6,8 @@ layout: default
 title: Home
 ---
 
+<img style="margin: 0; position: relative; left: 0;" width="100%" src="/assets/banner.jpg">
+
 # Home
 Welcome to my site! Here you can find links to the various things I do.
 
