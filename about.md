@@ -10,7 +10,7 @@ permalink: /about/
 
 Hi, I'm ***REMOVED***, or HyperHamster534, a kid on the internet who likes to code, play video games, and look at memes.
 
-<img  width="50%" src="/assets/logopersonal.png">
+<img width="50%" src="/assets/logopersonal.png">
 
 ## What I do
 
