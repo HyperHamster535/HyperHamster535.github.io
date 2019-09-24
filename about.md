@@ -8,13 +8,13 @@ permalink: /about/
 
 ## Who I am
 
-Hi, I'm ***REMOVED***, or HyperHamster534, a kid on the internet who likes to code, play video games, and look at memes.
+Hi, I'm ***REMOVED***, or Pr0ximas, a kid on the internet who likes to code, play video games, and look at memes.
 
 <img width="50%" src="/assets/logopersonal.png">
 
 ## What I do
 
-I learned programming with Scratch, but recently I've been getting into Python and HTML. I've also dabbled in Visual Basic, C++, Javascript, and a weird 3D language called Alice. I have a YouTube channel which was originally going to be KSP oriented (and that's still my main plan) but also has gaming and coding videos. I play a fair few video games, mainly on the Xbox One, a few of my favourites are Minecraft, SUPERHOT, Kerbal Space Program and Forza Horizon 4.
+I learned programming with Scratch, and I mainly use Python and HTML. I've also dabbled in Visual Basic, C++, PHP, Javascript, and a weird 3D language called Alice. I have a YouTube channel which was originally going to be KSP oriented (and that's still my main plan) but also has gaming and coding videos. I play a fair few video games, mainly on the Xbox One, a few of my favourites are Minecraft, SUPERHOT, Kerbal Space Program and Forza Horizon 4.
 
 ## Social Media
 
