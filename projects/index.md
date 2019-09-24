@@ -16,7 +16,7 @@ A terrible CSS framework I started.
 ### [Noisemap](https://github.com/HyperHamster535/Noisemap)
 A Python library I made whilst experimenting with noisemaps.
 
-### [EchoCMD](https://github.com/HyperHamster535/EchoCMD)
+### [EchoCMD](https://hyperhamster535.github.io/EchoCMD)
 A batch script that allows you to access a simulated command prompt on any Windows PC, no matter what restrictions are in place.
 
 ### [Minecraft.zip](minecraftzip)
