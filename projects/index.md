@@ -7,10 +7,10 @@ Projects
 ========
 ## The stuff I make
 
-### [PyWireframe](https://github.com/HyperHamster535/PyWireframe)
+### [PyWireframe](https://hyperhamster535.github.io/PyWireframe)
 A stupid attempt at a 3D rendering engine in python's turtle graphics.
 
-### [Quark CSS](https://github.com/HyperHamster535/quark-CSS)
+### [Quark CSS](https://hyperhamster535.github.io/quark-CSS/)
 A terrible CSS framework I started.
 
 ### [Noisemap](https://github.com/HyperHamster535/Noisemap)
