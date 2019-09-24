@@ -7,7 +7,12 @@ Projects
 ========
 ## The stuff I make
 
+[BlackBox](blackbox)
+
+A robot I'm making with my friend.
+
 ### [PyWireframe](https://hyperhamster535.github.io/PyWireframe)
+
 A stupid attempt at a 3D rendering engine in python's turtle graphics.
 
 ### [Quark CSS](https://hyperhamster535.github.io/quark-CSS/)
