@@ -13,7 +13,7 @@ A stupid attempt at a 3D rendering engine in python's turtle graphics.
 ### [Quark CSS](https://hyperhamster535.github.io/quark-CSS/)
 A terrible CSS framework I started.
 
-### [Noisemap](https://github.com/HyperHamster535/Noisemap)
+### [Noisemap](https://hyperhamster535.github.io/Noisemap)
 A Python library I made whilst experimenting with noisemaps.
 
 ### [EchoCMD](https://hyperhamster535.github.io/EchoCMD)
