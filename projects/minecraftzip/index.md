@@ -1,3 +1,8 @@
+---
+layout: default
+title: Minecraft.zip
+---
+
 Minecraft.zip
 =============
 ## A portable installation of Minecraft Education Edition
