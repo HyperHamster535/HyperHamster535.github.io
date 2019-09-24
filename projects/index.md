@@ -7,7 +7,7 @@ Projects
 ========
 ## The stuff I make
 
-[BlackBox](blackbox)
+### [BlackBox](blackbox)
 
 A robot I'm making with my friend.
 
