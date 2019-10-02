@@ -13,39 +13,27 @@
 	<body>
 		
 		<h1>BlackBox Controller Demo</h1>
-		<p>A demo of the control system I'm using to control a robot I'm building with a friend</p>
-		<p>The control system was designed with mobile devices in mind.</p>
+		<p>A demo of the control system I'm using to control a robot I'm building with a friend. The idea is that a raspberry pi hosts this page along with some PHP and I connect to it with my phone, using my hotspot as a LAN.</p>
+		<p>I could show motor values on this page but I'm lazy and can't be bothered writing pointless javascript for a website nobody visits.</p>
 		
-		<form onload="setsliders()" id="motor_form" action="backend.php" align="center" class="control_container" method="post">
-			<input onchange = "sync()" class="control_slider" type="range" min="-50" max="50" value="0" id="motor_l" name="motor_l">
-			<input onchange = "sync()" class="control_slider" type="range" min="-50" max="50" value="0" id="motor_r" name="motor_r">
-		</form>
+		<a href="../">Back</a>
 		
-		<div class="control_container">
-			<h2>Values</h2>
-			<p id="textl">0</p>
-			<p id="textr">0</p>
-		</div>
-
-		<div id="slidervalues">
-		
-			<p><?php echo htmlspecialchars($ml); ?></p>
-			<p><?php echo $mr; ?></p>
-
-		</div>
-
-		<script type="text/javascript">
-			function sync() {
-				// document.getElementById("motor_form").submit(); // This code would execute some PHP code to write the slider values to a text file. It's commented out because github pages doesn't support PHP.
-				
-				document.getElementById("textl").innerHTML = document.getElementById("motor_l").value; //set these values to the values in the sliders
-				document.getElementById("textr").innerHTML = document.getElementById("motor_r").value; //see above
-				
-				document.getElementById("motor_l").value = 0; //simulate php resetting page
-				document.getElementById("motor_r").value = 0; //see above
+		<form id="motor_form" action="backend.php" align="center" class="control_container" method="post">
+			<input onchange = "sync()" class="control_slider" type="range" min="-50" max="50" value="0" id="motor_l" name="motor_l" style="visibility: hidden;" /> <!-- These are the sliders I was using instead of the buttons. I hid them because they didn't work too well with PHP. -->
+			<input onchange = "sync()" class="control_slider" type="range" min="-50" max="50" value="0" id="motor_r" name="motor_r" style="visibility: hidden;" /> <!-- See above -->
 			
-			}
+			<div style="position: relative; top: 0px;" id="button_form">
+				<input class="control_button" value="\" type="submit" name="b_fl" />
+				<input class="control_button" value="/\" type="submit" name="b_f" />
+				<input class="control_button" value="/" type="submit" name="b_fr" /> <br />
+				<input class="control_button" value="<" type="submit" name="b_l" />
+				<input class="control_button" value="O" type="submit" name="b_s" />
+				<input class="control_button" value=">" type="submit" name="b_r" /> <br />
+				<input class="control_button" value="/" type="submit" name="b_bl" />
+				<input class="control_button" value="\/" type="submit" name="b_b" />
+				<input class="control_button" value="\" type="submit" name="b_br" />
+			</div>
+		</form>
 
-		</script
 	</body>
 </html>
