@@ -24,5 +24,5 @@ A Python library I made whilst experimenting with noisemaps.
 ### [EchoCMD](https://hyperhamster535.github.io/EchoCMD)
 A batch script that allows you to access a simulated command prompt on any Windows PC, no matter what restrictions are in place.
 
-### [Minecraft.zip](minecraftzip)
-A portabalized installation of Minecraft Education Edition
+### [The Worst Telephone Number Form Ever](https://hyperhamster535.github.io/Terrible-Phone-Number-Form)
+Exactly what it says: a form to select your phone number from every other UK phone number possible.
