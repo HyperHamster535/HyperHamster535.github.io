@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Alata|Open+Sans&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Alata', sans-serif;
+}
+
+body:not(h1):not(h2):not(h3) {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    font-size: 5em;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    margin: 0;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 2.5em;
+}
+
+.half-width-text {
+    width: 50%;
+    text-align: left;
+}

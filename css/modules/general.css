@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.parralax-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    padding: 3em;
+}
+
+.half-width-image {
+    width: 50%;
+    height: auto;
+    float: right;
+    position: relative;
+    clear: both;
+}
