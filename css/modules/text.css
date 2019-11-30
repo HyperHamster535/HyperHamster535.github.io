@@ -28,3 +28,11 @@ body:not(h1):not(h2):not(h3) {
     width: 50%;
     text-align: left;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    clear: both;
+}
