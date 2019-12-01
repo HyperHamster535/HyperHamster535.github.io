@@ -20,11 +20,18 @@ nav svg, a {
     font-size: 17px;
     fill: #FFFFFF;
     transition: color 0.2s ease-in-out;
+    transition: fill 0.2s ease-in-out;
 }
 
 nav a:hover {
     color: #68FE9A;
     text-decoration: none;
+    cursor: pointer;
+}
+
+nav svg:hover {
+    fill: #68FE9A;
+    cursor: pointer;
 }
 
 nav i {
