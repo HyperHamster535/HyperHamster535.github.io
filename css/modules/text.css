@@ -59,3 +59,7 @@ li {
     font-size: 36px;
     display: inline-block;
 }
+
+.socicon:hover {
+    text-decoration: none;
+}
