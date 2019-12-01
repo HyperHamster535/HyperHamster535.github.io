@@ -15,8 +15,6 @@ function toggleNav() {
 function setnavlinks() {
     scroll = window.scrollY
 
-    console.log(scroll)
-
     if (scroll < projectsheight) {
         document.getElementById("nav-home").style.color = "#68FE9A";
         document.getElementById("nav-projects").style.color = "#FFFFFF";
