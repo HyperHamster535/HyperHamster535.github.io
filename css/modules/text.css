@@ -36,3 +36,26 @@ a:hover {
 h2 {
     clear: both;
 }
+
+i {
+    font-size: 24px
+}
+
+li a {
+    padding: 0px;
+}
+
+li i {
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+.socicon {
+    float: none;
+    font-size: 36px;
+    color: black;
+    display: inline-block;
+}
