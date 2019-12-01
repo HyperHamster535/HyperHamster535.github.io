@@ -1,3 +1,6 @@
+projectsheight = 619;
+aboutheight = 1949;
+
 function toggleNav() {
     var nav = document.getElementById("navbar");
     if (nav.className === "navOpen") {
@@ -10,13 +13,7 @@ function toggleNav() {
 }
 
 function setnavlinks() {
-    
-    projectsheight = 619;
-    aboutheight = 1949;
-    
     scroll = window.scrollY
-
-    console.log(scroll)
 
     if (scroll < projectsheight) {
         document.getElementById("nav-home").style.color = "#68FE9A";
@@ -32,4 +29,8 @@ function setnavlinks() {
         document.getElementById("nav-about").style.color = "#68FE9A";
     }
 
+}
+
+function setscroll(amount) {
+    window.scrollTo(0, amount)
 }
