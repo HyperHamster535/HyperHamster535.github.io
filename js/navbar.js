@@ -1,5 +1,5 @@
-projectsheight = 730;
-aboutheight = 2066;
+projectsheight = 1426;
+aboutheight = 2751;
 
 function toggleNav() {
     var nav = document.getElementById("navbar");
@@ -14,6 +14,7 @@ function toggleNav() {
 
 function setnavlinks() {
     scroll = window.scrollY
+    // console.log(scroll)
 
     if (scroll < projectsheight) {
         document.getElementById("nav-home").style.color = "#68FE9A";
