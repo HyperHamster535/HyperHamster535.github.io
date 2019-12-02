@@ -26,3 +26,13 @@ div {
     position: relative;
     clear: both;
 }
+
+.youtube-video-text {
+    float: left; width: calc(100% - 580px);
+}
+
+@media screen and (max-width: 600px) {
+    .youtube-video-text {
+        width: 100%;
+        float: none;
+    }
