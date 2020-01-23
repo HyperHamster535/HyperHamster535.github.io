@@ -24,13 +24,13 @@ nav svg, a {
 }
 
 nav a:hover {
-    color: #68FE9A;
+    color: #F65416;
     text-decoration: none;
     cursor: pointer;
 }
 
 nav svg:hover {
-    fill: #68FE9A;
+    fill: #F65416;
     cursor: pointer;
 }
 

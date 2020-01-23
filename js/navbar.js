@@ -17,12 +17,12 @@ function setnavlinks() {
     // console.log(scroll)
 
     if (scroll < projectsheight) {
-        document.getElementById("nav-home").style.color = "#68FE9A";
+        document.getElementById("nav-home").style.color = "#F65416";
         document.getElementById("nav-projects").style.color = "#FFFFFF";
         document.getElementById("nav-about").style.color = "#FFFFFF";
     } else if (scroll < aboutheight) {
         document.getElementById("nav-home").style.color = "#FFFFFF";
-        document.getElementById("nav-projects").style.color = "#68FE9A";
+        document.getElementById("nav-projects").style.color = "#F65416";
         document.getElementById("nav-about").style.color = "#FFFFFF";
     } else {
         document.getElementById("nav-home").style.color = "#FFFFFF";
