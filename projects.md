@@ -20,4 +20,4 @@ A batch script that allows you to access a simulated command prompt on any Windo
 
 ## More stuff
 
-But that's not all! You can find even more of the random and terrible things I've programmed on my [GitHub](https://github.com/Pr0x1mas).
+But that's not all! You can find even more of the random and terrible things I've programmed on my [GitHub](https://github.com/Pr0x1mas), and I also have a [Scratch](https://scratch.mit.edu/users/HYPERHAMSTER534/) account.
