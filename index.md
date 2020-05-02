@@ -1,4 +1,4 @@
-gi---
+---
 title: home
 layout: home
 permalink: /
