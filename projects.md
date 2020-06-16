@@ -18,6 +18,10 @@ A terrible CSS framework I started and gave up on.
 
 A batch script that allows you to access a simulated command prompt on any Windows PC, no matter what restrictions are in place.
 
+## [Beenz-Bot](https://pr0x1mas.github.io/beenz-bot)
+
+A discord bot.
+
 ## More stuff
 
 But that's not all! You can find even more of the random and terrible things I've programmed on my [GitHub](https://github.com/Pr0x1mas), and I also have a [Scratch](https://scratch.mit.edu/users/HYPERHAMSTER534/) account.
