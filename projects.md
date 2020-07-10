@@ -6,6 +6,10 @@ permalink: /projects/
 
 # Projects
 
+## [Station-Keeper](https://pr0x1mas.github.io/station-keeper/)
+
+A very basic discord bot that tells you info about bodies in Elite: Dangerous.
+
 ## [PyWireframe](https://pr0x1mas.github.io/PyWireframe)
 
 A stupid attempt at a 3D rendering engine in python's turtle graphics.
