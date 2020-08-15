@@ -16,4 +16,4 @@ I learned programming with Scratch, and I mainly use Python and HTML. I've also 
 
 <br><br>
 
-I am quite into freelance web development and if you want a website made then email me at joshua@the-britains.com. I do not want unsolicited offers for products or similar.
+I am quite into freelance web development and if you want a website made then email me at Pr0x1mas@outlook.com. I do not want unsolicited offers for products or similar.
