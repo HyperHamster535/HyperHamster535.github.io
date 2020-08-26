@@ -6,6 +6,10 @@ permalink: /projects/
 
 # Projects
 
+## [js-problems] (https://pr0x1mas.github.io/js-problems/)
+
+Solutions to varios programming thought experiments like the weasel program, written in JavaScript spaghetti code
+
 ## [Station-Keeper](https://pr0x1mas.github.io/station-keeper/)
 
 A very basic discord bot that tells you info about bodies in Elite: Dangerous.
