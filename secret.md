@@ -1,7 +1,7 @@
 ---
 layout: page
 title: hidden page
-permalink: /hiddenpage/
+permalink: /secret/
 ---
 
 
