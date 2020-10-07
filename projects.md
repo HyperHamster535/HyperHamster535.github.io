@@ -6,7 +6,7 @@ permalink: /projects/
 
 # Projects
 
-## [js-problems] (https://pr0x1mas.github.io/js-problems/)
+## [js-problems](https://pr0x1mas.github.io/js-problems/)
 
 Solutions to varios programming thought experiments like the weasel program, written in JavaScript spaghetti code
 
