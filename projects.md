@@ -6,9 +6,13 @@ permalink: /projects/
 
 # Projects
 
+## [webtrack](https://pr0x1mas.github.io/webtrack/)
+
+Track the motion of a mass in your browser, basically [Tracker](https://physlets.org/tracker/) in JavaScript
+
 ## [js-problems](https://pr0x1mas.github.io/js-problems/)
 
-Solutions to varios programming thought experiments like the weasel program, written in JavaScript spaghetti code
+Solutions to various programming thought experiments like the weasel program, written in JavaScript spaghetti code
 
 ## [Station-Keeper](https://pr0x1mas.github.io/station-keeper/)
 
