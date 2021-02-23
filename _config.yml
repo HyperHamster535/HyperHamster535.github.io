@@ -22,3 +22,4 @@ find me on
 </ul>
 '
 
+plugins: - jekyll-sitemap
