@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to install LineageOS 17.1 on the Samsung SM-A300FU"
+author: Joshua Britain
 ---
 
 # How to install LineageOS 17.1 on the 2015 Samsung Galaxy A3 (SM-A300FU)
