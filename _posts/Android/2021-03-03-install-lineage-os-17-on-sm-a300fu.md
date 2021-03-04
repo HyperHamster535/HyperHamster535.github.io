@@ -1,18 +1,16 @@
 ---
 layout: post
-title:  "How to install LineageOS 17.1 on the Samsung SM-A300FU"
+title:  "How to install LineageOS 17.1 on the 2015 Samsung Galaxy A3 (SM-A300FU)"
 author: ***REMOVED*** ***REMOVED***
 ---
-
-# How to install LineageOS 17.1 on the 2015 Samsung Galaxy A3 (SM-A300FU)
 
 I know this isn't the sort of content you might expect as the first post on my blog, but here we are. I recently installed LineageOS 14 on my old 2015 Samsung Galaxy A3, and thought I would share the process if for some reason you decide to trust me more than the many other sites explaining how to do this. So, onto the guide.
 
 **PLEASE READ ALL OF THESE INSTRUCTIONS BEFORE FOLLOWING THEM!**
 
 ## Disclaimer
-    Your warranty is now void (I would be surprised if you still had one on this phone)
-    I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. Please do some research if you have any concerns about installing this ROM. YOU are choosing to make these modifications. By flashing this ROM, you accept this disclaimer.
+Your warranty is now void (I would be surprised if you still had one on this phone).
+I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. Please do some research if you have any concerns about installing this ROM. YOU are choosing to make these modifications. By flashing this ROM, you accept this disclaimer.
 
 ## Prerequisites
 * You have access to a desktop computer running Windows, MacOS, or Linux 
@@ -32,19 +30,15 @@ I know this isn't the sort of content you might expect as the first post on my b
 In order to flash a custom ROM, you must first install a custom recovery. These days, pretty much the only option for custom recoveries is TWRP, so that is what we are using today. 
 
 The first thing to do is power off the device, and then boot it into download mode. This can be done by holding down the home and volume down button, then holding the power button until the samsung logo appears, at which point release all of the buttons. Alternatively, use the ADB command `adb reboot download`
-![Download Mode](downloadMode.png)
 
 You should now see the download mode screen, **do not press any buttons yet!**
 
-![Download Mode Again](downloadMode2.jpg)
+Run Odin on your computer, press the button labelled "AP", and select the TWRP .tar file you downloaded. 
 
-Run Odin on your computer, <span style="color:red">press the button labelled "AP"</span>, and select the TWRP .tar file you downloaded. 
-
-![Odin](Odin.png)
 
 This part is slightly tricky, you have to time it correctly. If you don't manage to, the phone just reboots normally, and you will have to start this step again.
 
-Plug the phone into your computer with a USB cable, and press volume up. The text box in odin should now show "added!". If it does, <span style="color: purple">click the button labelled "start".<span>
+Plug the phone into your computer with a USB cable, and press volume up. The text box in odin should now show "added!". If it does, click the button labelled "start".
 
 The phone will now download the new recovery, and once it is done, it will reboot. **As soon as the screen goes black, press and hold volume up and the home button.** This will now take you into the TWRP recovery. If the phone prompts you to swipe to allow modification, do so.
 
