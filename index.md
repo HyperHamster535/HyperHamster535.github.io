@@ -13,3 +13,6 @@ permalink: /
 ```
 
 Welcome to my website. I don't know why you came here but you might as well stay.
+
+
+## Latest Blog Posts
