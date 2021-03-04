@@ -78,7 +78,7 @@ If the install ends with 'Updater process ended with ERROR: 70', then you must u
 
 ## Step 5 - Finishing Off
 
-And that's it! Press the 'reboot' button, and your phone should reboot into LineageOS. It may take a while on the boot animation, as it is setting up the OS for first use.
+And that's it! Press the 'reboot' button, and your phone should reboot into LineageOS. **If prompted to install the TWRP app, click 'Do Not Install'** It may take a while on the boot animation, as it is setting up the OS for first use.
 
 ## Conclusion
 
