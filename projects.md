@@ -1,10 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 ---
-
-# Projects
 
 ## [webtrack](https://pr0x1mas.github.io/webtrack/)
 

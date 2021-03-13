@@ -1,18 +1,20 @@
 ---
-title: home
 layout: home
-permalink: /
+title: Home
 ---
 
-```
- ______   ______     ______     __  __     __     __    __     ______     ______    
-/\  == \ /\  == \   /\  __ \   /\_\_\_\   /\ \   /\ "-./  \   /\  __ \   /\  ___\   
-\ \  _-/ \ \  __<   \ \ \/\ \  \/_/\_\/_  \ \ \  \ \ \-./\ \  \ \  __ \  \ \___  \  
- \ \_\    \ \_\ \_\  \ \_____\   /\_\/\_\  \ \_\  \ \_\ \ \_\  \ \_\ \_\  \/\_____\ 
-  \/_/     \/_/ /_/   \/_____/   \/_/\/_/   \/_/   \/_/  \/_/   \/_/\/_/   \/_____/ 
-```
+<div style="background-image: url('/assets/slideshow1.jpg')" id="main-site-title">
+    <h1 id="main-site-title-text"></h1>
+</div>
 
-Welcome to my website. I don't know why you came here but you might as well stay.
+<div class="home-section teal">
+    <h1>Youtube</h1>
+    <iframe style="float: left;" id="channel-trailer" class="section-image" src="https://www.youtube.com/embed/4gxDmlA7ohU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p style="float: right" class="section-text">I have a YouTube channel, where very occasionally I actually upload a video. My videos are oriented around gaming, with a main focus on Minecraft and Kerbal Space Program although other random games also feature occasionally.</p>
+</div>
 
-
-## Latest Blog Posts
+<div class="home-section grey">
+    <h1>Programming</h1>
+    <p style="float: left" class="section-text">I program stuff. Some of it is bad, some of it is worse, some of it is in JavaScript and some of it is in Python, and some of the older stuff is in Scratch. If you want to see my spaghetti code and the result of it, you can find my most recent projects <a href="/projects">here</a>, or check out my <a href="https://github.com/Pr0x1mas">Github</a>.</p>
+    <div class="section-image" style="float: right; background-image: url('/assets/code.png')"></div>
+</div>
