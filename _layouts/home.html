@@ -2,16 +2,47 @@
 layout: default
 ---
 
-{{ content }}
-{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
+{{content}}
 
-{%- if site.posts.size > 0 -%}
-  <ul>
-    {%- for post in site.posts -%}
-    <li>
-      {%- assign date_format = "%Y-%m-%d" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </li>
-    {%- endfor -%}
-  </ul>
-{%- endif -%}
+<script>
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function coolTitle(){
+        titleText = document.getElementById("main-site-title-text");
+        targetTitleText = "pr0x1mas.github.io"
+
+
+        for(i = 0; i < 5; i++){
+            await sleep(100);
+            titleText.textContent = "_";
+            await sleep(100);
+            titleText.textContent = "";
+        }
+
+        for (i = 0; i < 9; i++){
+            await sleep(100);
+            titleText.textContent = targetTitleText.substr(0, i) + "_";
+        }
+
+        if(screen.width > 600){
+            await sleep(100);
+            for (i = 9; i < targetTitleText.length + 1; i++){
+                await sleep(100);
+                titleText.textContent = targetTitleText.substr(0, i) + "_";
+            }
+        } else {
+            i = i - 1;
+        }
+        await sleep(100);
+        titleText.textContent = targetTitleText.substr(0, i);
+
+
+        
+    }
+
+    coolTitle()
+
+    document.getElementById("channel-trailer").style.height = (document.getElementById("channel-trailer").clientWidth / 16)*9
+</script>

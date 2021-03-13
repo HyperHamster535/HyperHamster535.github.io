@@ -1,15 +1,21 @@
 ---
 layout: page
-title: blog
+title: Blog
 permalink: /blog/
 ---
 
-# Pr0x1mas' Blog - Latest Posts
+I have a blog. Not sure why, it's not like anyone will ever read it, but here we are.
 
+
+## Latest Posts
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p style="margin-top: -16px; color: #FFFFFFB3;">
+      <span class="material-icons-outlined md-18 inline-icon">schedule</span> 
+       {{ post.date | date: "%-d %B %Y" }}
+      <span class="material-icons-outlined md-18 inline-icon">account_circle</span>
+       {{post.author}}
+    </p>
   {% endfor %}
 </ul>
