@@ -12,18 +12,18 @@ body {
 #page-title {
     background-color: 03DAC6;
     color: white;
-    margin: -16px;
-    padding: 16px;
-    /*width: calc(100vw + 16px);*/
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 32px;
 }
 
 #page-content {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 a:link, a:visited {
-    color: white;
+    color: #03DAC6;
     text-decoration: none;
 }
 
@@ -42,9 +42,12 @@ body {
 #main-site-title {
     width: 100vw;
     height: calc(100vh - 56px);
-    background-color: red;
-    margin-left: -16px;
-    margin-top: -44px;;
+    margin-left: -32px;
+    margin-top: -53px;
+    z-index: -1;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 #main-site-title h1 {
@@ -53,4 +56,48 @@ body {
     line-height: calc(100vh - 56px);
     font-weight: bolder;
     font-style: italic;
+    font-size: 4em;
+}
+
+.inline-icon {
+    vertical-align: text-bottom;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.home-section {
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 32px;
+    overflow: auto;
+}
+
+.home-section.teal {
+    background-color: #03DAC6;
+}
+
+.home-section.grey {
+    background-color: #424242;
+}
+
+.section-text, .section-image {
+    width: 45%;
+    margin: 0px !important;
+}
+
+.section-image {
+    height: 17.7%;
+}
+
+@media screen and (max-width: 620px){
+    .section-image, .section-text {
+        width: 100%;
+        float: none !important;
+        height: auto;
+    }
+}
+
+.social-icons-container {
+    float: left;
+    width: 100%;
 }

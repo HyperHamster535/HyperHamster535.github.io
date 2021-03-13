@@ -18,10 +18,15 @@ nav {
 
 .nav-link {
     text-decoration: none;
-    color: 03DAC6 !important;
+    color: #03DAC6 !important;
     vertical-align: middle;
     line-height: 56px;
     padding-right: 8px;
+}
+
+.nav-link:hover {
+    color: white !important;
+    text-decoration: none;
 }
 
 #nav-link-container {
@@ -53,7 +58,7 @@ nav {
 }
 
 #nav-menu-icon {
-    color: 03DAC6 !important;
+    color: #03DAC6 !important;
     vertical-align: middle;
     line-height: 56px;
     padding-right: 16px;
@@ -75,13 +80,13 @@ nav {
 
 .nav-menu-link {
     text-decoration: none;
-    color: 03DAC6 !important;
+    color: #03DAC6 !important;
     padding-left: 32px;
 }
 
 hr {
     width: calc(100% - 30px);
-    border: .5px solid #e5e5e580;
+    border: .1px solid #e5e5e533;
 }
 
 #nav-menu-list {
