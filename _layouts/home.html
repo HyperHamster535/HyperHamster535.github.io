@@ -3,3 +3,46 @@ layout: default
 ---
 
 {{content}}
+
+<script>
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    async function coolTitle(){
+        titleText = document.getElementById("main-site-title-text");
+        targetTitleText = "pr0x1mas.github.io"
+
+
+        for(i = 0; i < 5; i++){
+            await sleep(100);
+            titleText.textContent = "_";
+            await sleep(100);
+            titleText.textContent = "";
+        }
+
+        for (i = 0; i < 9; i++){
+            await sleep(100);
+            titleText.textContent = targetTitleText.substr(0, i) + "_";
+        }
+
+        if(screen.width > 600){
+            await sleep(100);
+            for (i = 9; i < targetTitleText.length + 1; i++){
+                await sleep(100);
+                titleText.textContent = targetTitleText.substr(0, i) + "_";
+            }
+        } else {
+            i = i - 1;
+        }
+        await sleep(100);
+        titleText.textContent = targetTitleText.substr(0, i);
+
+
+        
+    }
+
+    coolTitle()
+
+    document.getElementById("channel-trailer").style.height = (document.getElementById("channel-trailer").clientWidth / 16)*9
+</script>
