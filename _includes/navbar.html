@@ -1,0 +1,54 @@
+<nav>
+    <div id="navbar-container">
+            <img id="nav-logo" src="/../assets/logobanner.svg">
+
+        <div id="nav-link-container">
+            <a class="nav-link" href="/">Home</a>
+            {% for page in site.pages %}
+                <a class="nav-link" href="{{ page.url }}">{{ page.title }}</a>
+            {% endfor %}
+            <span id="nav-menu-icon" onclick="toggleNav()" class="material-icons md-24">
+                menu
+            </span>
+        </div>
+        
+    </div>
+</nav>
+
+<div id="nav-menu">
+    <ul id="nav-menu-list">
+        <li><a class="nav-menu-link" href="/">Home</a></li>
+        <hr>
+            {% for page in site.pages %}
+                    <li><a class="nav-menu-link" href="{{ page.url }}">{{ page.title }}</a><hr></li>
+            {% endfor %}
+    </ul>
+</div>
+
+<div onclick="toggleNav()" id="nav-close-detector"></div>
+
+<script>
+        var navOpen = false;
+
+        navLinks = document.getElementsByClassName("nav-menu-link");
+        for (i=0; i < navLinks.length; i++){
+            console.log(navLinks[i].innerHTML);
+            if (navLinks[i].innerHTML == ""){
+                navLinks[i].parentElement.remove();
+            }
+        }
+
+        function toggleNav(){
+            if (navOpen == false) {
+                navOpen = true;
+                document.getElementById("nav-menu").style.right = "0px";
+                document.getElementById("nav-close-detector").style.display = "block";
+                document.getElementById("nav-close-detector").style.opacity = "25%";
+            } else {
+                navOpen = false;
+                document.getElementById("nav-menu").style.right = -document.getElementById("nav-menu").offsetWidth;
+                document.getElementById("nav-close-detector").style.display = "none";
+                document.getElementById("nav-close-detector").style.opacity = "0%";
+            }
+        }
+</script>

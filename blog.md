@@ -1,10 +1,8 @@
 ---
 layout: page
-title: blog
+title: Blog
 permalink: /blog/
 ---
-
-# Pr0x1mas' Blog - Latest Posts
 
 <ul>
   {% for post in site.posts %}
