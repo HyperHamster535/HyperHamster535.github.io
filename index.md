@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-<div style="background-image: url('/assets/slideshow1.jpg')" id="main-site-title">
+<div style="background-image: url('/assets/slideshow1.png')" id="main-site-title">
     <h1 id="main-site-title-text"></h1>
 </div>
 
