@@ -4,6 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
+## [pysweeper](https://github.com/Pr0x1mas/pysweeper)
+
+Minesweeper, in Python
+
 ## [webtrack](https://pr0x1mas.github.io/webtrack/)
 
 Track the motion of a mass in your browser, basically [Tracker](https://physlets.org/tracker/) in JavaScript
