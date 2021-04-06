@@ -3,9 +3,10 @@ layout: home
 title: Home
 ---
 
-<div style="background-image: url('/assets/slideshow1.png')" id="main-site-title">
+<div style="background-image: url('/assets/slideshow1small.png')" id="main-site-title">
     <h1 id="main-site-title-text"></h1>
 </div>
+<img src='/assets/slideshow1.png' onload='setHiResImg()' style="display: none;">
 
 <div class="home-section teal">
     <h1>Youtube</h1>
