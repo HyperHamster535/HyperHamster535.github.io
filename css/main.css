@@ -93,7 +93,6 @@ body {
     .section-image, .section-text {
         width: 100%;
         float: none !important;
-        height: auto;
     }
 }
 
@@ -112,4 +111,16 @@ button {
 
 button:hover {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+#down-icon {
+    float: left;
+    font-size: 48px;
+    width: 100%;
+    top: calc(100vh - 112px);
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
 }

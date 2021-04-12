@@ -7,7 +7,7 @@ nav {
     background-color: #424242;
     color: var(--main-bg-color);
     top: 0px;
-    z-index: 0;
+    z-index: 1;
 }
 
 
@@ -82,6 +82,7 @@ nav {
     text-decoration: none;
     color: #03DAC6 !important;
     padding-left: 32px;
+    font-size: larger;
 }
 
 hr {

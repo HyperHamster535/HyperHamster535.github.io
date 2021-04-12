@@ -13,14 +13,6 @@ layout: default
         titleText = document.getElementById("main-site-title-text");
         targetTitleText = "pr0x1mas.github.io"
 
-
-        for(i = 0; i < 5; i++){
-            await sleep(100);
-            titleText.textContent = "_";
-            await sleep(100);
-            titleText.textContent = "";
-        }
-
         for (i = 0; i < 9; i++){
             await sleep(100);
             titleText.textContent = targetTitleText.substr(0, i) + "_";
@@ -38,12 +30,21 @@ layout: default
         await sleep(100);
         titleText.textContent = targetTitleText.substr(0, i);
 
+        document.getElementById("down-icon").style.opacity = 100;
 
         
     }
 
     function setHiResImg(){
         document.getElementById("main-site-title").style.backgroundImage = "url('/assets/slideshow1.png')"
+    }
+
+    function scrollDown(){
+        window.scrollTo({
+        top: window.innerHeight - 56,
+        left: 0,
+        behavior: 'smooth'
+    });
     }
 
     document.getElementById("channel-trailer").style.height = (document.getElementById("channel-trailer").clientWidth / 16)*9
