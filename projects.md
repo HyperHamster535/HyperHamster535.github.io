@@ -4,6 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
+## [VBFile] (https://github.com/Pr0x1mas/vbFile)
+
+A file explorer in Visual Basic 6
+
 ## [pysweeper](https://github.com/Pr0x1mas/pysweeper)
 
 Minesweeper, in Python
