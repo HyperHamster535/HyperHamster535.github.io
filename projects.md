@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-## [VBFile] (https://github.com/Pr0x1mas/vbFile)
+## [VBFile](https://pr0x1mas.github.io/vbFile)
 
 A file explorer in Visual Basic 6
 
