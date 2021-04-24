@@ -4,6 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
+## [InsultBot](https://pr0x1mas.github.io/InsultBot)
+
+A discord bot that insults you
+
 ## [VBFile](https://pr0x1mas.github.io/vbFile)
 
 A file explorer in Visual Basic 6
