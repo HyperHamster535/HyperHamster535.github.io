@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Install LineageOS 17.1 on the 2015 Galaxy A3"
+title:  "Install LineageOS on the 2015 Galaxy A3"
 author: ***REMOVED*** ***REMOVED***
 ---
 
@@ -9,7 +9,8 @@ I know this isn't the sort of content you might expect as the first post on my b
 **PLEASE READ ALL OF THESE INSTRUCTIONS BEFORE FOLLOWING THEM!**
 
 ## Disclaimer
-Your warranty is now void (I would be surprised if you still had one on this phone).
+I DID NOT CREATE THE ROMS LISTED IN THIS TUTORIAL
+Your warranty will almost certainly be void if you do this (I would be surprised if you still had one on this phone).
 I am not responsible for bricked devices, dead SD cards, thermonuclear war, or you getting fired because the alarm app failed. Please do some research if you have any concerns about installing this ROM. YOU are choosing to make these modifications. By flashing this ROM, you accept this disclaimer.
 
 ## Prerequisites
@@ -23,7 +24,8 @@ I am not responsible for bricked devices, dead SD cards, thermonuclear war, or y
 * [Odin 3](https://odindownload.com/download/Odin3_v3.14.1.zip)
 * [TWRP 3.31](https://androidfilehost.com/?fid=4349826312261625220)
 * [LineageOS 17.1](https://androidfilehost.com/?fid=8889791610682926538)
-* [OpenGapps](https://opengapps.org/) (Select ARM, 10.0, and any of the last options however I recommend Micro, some of the options higher up the list may not work.)
+* [LineageOS 14.1](https://www.androidfilehost.com/?fid=673368273298957661) [RECOMMENDED]
+* [OpenGapps](https://opengapps.org/) (Select ARM, your version of android (10.0 for 17.1, 7.1 for 14.1), and any of the last options however I recommend Micro, some of the options higher up the list may not work.)
 
 ## Step 1 - Install TWRP
 
@@ -51,7 +53,7 @@ Before we can install LineageOS, we need to remove the existing OS on the phone.
 Now to install Lineage itself. First, press the back button until you are on the main TWRP screen again. Go to Advanced>ADB Sideload, and open up a windows terminal in the same directory as the files you downloaded earlier. Swipe the arrow right to start sideload, then type the following command into your terminal:
 
 ```
-adb sideload lineage-17.1-20200819-UNOFFICIAL-a3lte.zip
+adb sideload [LINEAGEOS ZIP FILENAME]
 ```
 
 If all goes correctly, your device will have installed LineageOS. If there is an error, google it because I'm sure you are not the only person who has had this error.
@@ -62,7 +64,7 @@ OpenGApps is an additional package that allows you to run google play services s
 
 Press 'back', and then go into 'ADB Sideload' again, before once more swiping right on the arrow.
 
-I'm using the Micro package for this, so my filename is `open_gapps-arm-10.0-micro-20210304.zip`, therefore the command I'll type into ADB is
+I'm using the Micro package for this with LineageOS 17.1 which is Android 10.0, so my filename is `open_gapps-arm-10.0-micro-20210304.zip`, therefore the command I'll type into ADB is
 
 ```
 adb sideload open_gapps-arm-10.0-micro-20210304.zip
@@ -77,7 +79,7 @@ And that's it! Press the 'reboot' button, and your phone should reboot into Line
 
 ## Conclusion
 
-So, that is how you install LineageOS on your phone. Moving to a custom ROM for the first time can seem intimidating, but it's really a lot more simple than it seems. I hope this guide was helpful for the very few people (if any) that ever follow it, and I look forward to writing more guides in the future!
+So, that is how you install LineageOS on your galaxy A3. Moving to a custom ROM for the first time can seem intimidating, but it's really a lot more simple than it seems. I hope this guide was helpful for the very few people (if any) that ever follow it, and I look forward to writing more guides in the future!
 
 Thanks for reading,
                         - Pr0x1mas
