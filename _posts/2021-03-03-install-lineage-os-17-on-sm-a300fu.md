@@ -16,7 +16,7 @@ I am not responsible for bricked devices, dead SD cards, thermonuclear war, or y
 ## Prerequisites
 * You have access to a desktop computer running Windows, MacOS, or Linux 
 * ADB is set up and accessable from all directories on your computer [(Installation guide here)](https://www.xda-developers.com/install-adb-windows-macos-linux/)
-* You have access to a 2015 Samsung Galaxy S3 (SM-A300FU) (MAKE SURE IT IS THE SM-A300U MODEL)
+* You have access to a 2015 Samsung Galaxy S3 (SM-A300FU) (MAKE SURE IT IS THE SM-A300FU MODEL)
 * All data on the phone you wish to keep is backed up safely
 
 **Download all of these before you start the installation**
