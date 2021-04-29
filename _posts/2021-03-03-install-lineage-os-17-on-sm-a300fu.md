@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Install LineageOS on the 2015 Galaxy A3"
-author: ***REMOVED*** ***REMOVED***
+author: Pr0x1mas
 ---
 
 I know this isn't the sort of content you might expect as the first post on my blog, but here we are. I recently installed LineageOS 14 on my old 2015 Samsung Galaxy A3, and thought I would share the process if for some reason you decide to trust me more than the many other sites explaining how to do this. So, onto the guide.
@@ -23,8 +23,9 @@ I am not responsible for bricked devices, dead SD cards, thermonuclear war, or y
 
 * [Odin 3](https://odindownload.com/download/Odin3_v3.14.1.zip)
 * [TWRP 3.31](https://androidfilehost.com/?fid=4349826312261625220)
-* [LineageOS 17.1](https://androidfilehost.com/?fid=8889791610682926538)
-* [LineageOS 14.1](https://www.androidfilehost.com/?fid=673368273298957661) [RECOMMENDED]
+
+* [LineageOS 17.1](https://androidfilehost.com/?fid=8889791610682926538) [BUGGY] OR [LineageOS 14.1](https://www.androidfilehost.com/?fid=673368273298957661) [RECOMMENDED]
+
 * [OpenGapps](https://opengapps.org/) (Select ARM, your version of android (10.0 for 17.1, 7.1 for 14.1), and any of the last options however I recommend Micro, some of the options higher up the list may not work.)
 
 ## Step 1 - Install TWRP

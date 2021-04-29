@@ -10,7 +10,7 @@ body {
 }
 
 #page-title {
-    background-color: 03DAC6;
+    background-color: #03DAC6;
     color: white;
     margin-left: -32px;
     margin-right: -32px;
@@ -127,4 +127,31 @@ button:hover {
     -o-transition: opacity 0.5s ease-in;
     -webkit-transition: opacity 0.5s ease-in;
     -moz-transition: opacity 0.5s ease-in;
+}
+
+#post-banner-image {
+    display: inline;
+    float: right;
+    width: 50%;
+    height: fit-content;
+    object-fit: cover;
+    margin: -32px;
+    height: 0px;
+}
+
+#page-title-text {
+    width: 50%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 450px) {
+    #page-title-text, #post-banner-image {
+        width: 100%;
+        margin-top: 8px;
+        float: none;
+    }
+
+    #post-banner-image {
+        width: calc(100% + 64px);
+    }
 }

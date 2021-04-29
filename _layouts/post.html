@@ -2,9 +2,21 @@
 layout: default
 ---
 <div id="page-title">
-    <h1>{{ page.title }}</h1>
-    <h3>By {{ page.author }}</h3>
-    <h3>{{ page.date | date: "%-d %B %Y" }}</h3>
+    <div id="page-title-text">
+        <h1>{{ page.title }}</h1>
+        <h3>By {{ page.author }}</h3>
+        <h3>{{ page.date | date: "%-d %B %Y" }}</h3>
+    </div>
+    <img id="post-banner-image" src={{ page.banner-image }}>
+    <div style="clear: both"></div>
+
+    <script>
+        if(window.screen.width > 450){
+            document.getElementById("post-banner-image").style.height = document.getElementById("page-title").clientHeight
+        } else {
+            document.getElementById("post-banner-image").style.height = window.screen.height - document.getElementById("page-title").clientHeight;
+        }
+    </script>
 </div>
 <br><br>
 {{content}}
