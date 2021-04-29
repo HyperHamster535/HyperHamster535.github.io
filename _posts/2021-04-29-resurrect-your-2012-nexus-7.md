@@ -70,6 +70,8 @@ If you want google services, also install your OpenGapps zip via the same method
 
 And that's it! Press the 'reboot' button, and your tablet should reboot into Android. **If prompted to install the TWRP app, click 'Do Not Install'** It may take a while on the boot animation, as it is setting up the OS for first use.
 
+Now, I'm not saying your nexus 7 will suddenly become as fast as it was 9 years ago. But it's certainly faster than it was.
+
 
 Thanks for reading,  
 
