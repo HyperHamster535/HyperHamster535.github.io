@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Idiot's Guide to Android Device Hacking"
-author: ***REMOVED*** ***REMOVED***
+author: Joshua Britain
 ---
 
 As of late I have been getting quite into screwing with my various android devices, and so I thought I would write a guide for people such as myself a few years ago, who want to start 'rooting' or installing 'a custom ROM' on their device, but don't know what a lot of the terms mean.
