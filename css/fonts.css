@@ -1,11 +1,16 @@
 
+@font-face {
+    font-family: "Android Euclid";
+    src: url(/assets/AndroidEuclid.woff2);
+}
+
 p, a, button, li {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: "Android Euclid", 'Roboto', sans-serif !important;
+h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 *{
+    font-family: "Android Euclid", 'Roboto', sans-serif;
     font-weight: 300;
 }
 
@@ -24,7 +29,26 @@ h3 {
     line-height: 1.4em;
 }
 
-@font-face {
-    font-family: "Android Euclid";
-    src: url(/assets/AndroidEuclid.woff2);
+code {
+    font-family: 'Roboto Mono', monospace;
+}
+
+pre::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
+code {
+    border-left: 2px solid teal;
+    padding-left: 4px;
+}
+
+pre {
+    overflow-x: scroll;
+    max-width: 100%;
+}
+
+.highlight {
+    margin: 0px;
 }

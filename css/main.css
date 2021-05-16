@@ -1,6 +1,7 @@
 @import "fonts.css";
 @import "navbar.css";
 @import "icons.css";
+@import "fruity.css";
 
 body {
     padding: 0px;
@@ -35,8 +36,9 @@ a:hover {
     max-width: 100vw;
 }
 
-body {
-    overflow-x: hidden;
+html, body {
+    width: 100%;
+    /*overflow-x: hidden;*/
 }
 
 #main-site-title {
@@ -156,6 +158,6 @@ button:hover {
     }
 
     #post-banner-image {
-        width: calc(100% + 64px);
+        width: 100vw;
     }
 }

@@ -34,7 +34,9 @@ To unlock the bootloader, reboot your device into the bootloader by holding powe
 
 Connect your device to your computer and type in a terminal 
 
-`fastboot oem unlock`
+{% highlight bash %}
+fastboot oem unlock
+{% endhighlight %}
 
 A confirmation dialog will appear on your screen, use the volume buttons to switch to the 'yes' option and press the power button to confirm.
 
@@ -45,7 +47,9 @@ In order to flash a custom ROM, you must first install a custom recovery. These 
 
 In a command prompt in the same directory as the files you downloaded, type
 
-`fastboot flash recovery twrp-3.5.2_9-0-grouper.img`
+{% highlight bash %}
+fastboot flash recovery twrp-3.5.2_9-0-grouper.img
+{% endhighlight %}
 
 This will flash TWRP to your tablet, allowing you to install a custom ROM and any other flashable easily.
 
@@ -61,9 +65,9 @@ Now we've removed the existing Android OS, we can flash a new one.
 
 First, press the back button until you are on the main TWRP screen again. Go to Advanced>ADB Sideload, and open up a windows terminal in the same directory as the files you downloaded earlier. Swipe the arrow right to start sideload, then type the following command into your terminal:
 
-```
+{% highlight bash %}
 adb sideload [ROM-NAME-HERE]
-```
+{% endhighlight %}
 
 If you are using CM12.1 like I am, the filename is `cm-12.1-20161016-NIGHTLY-grouper.zip`
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "Install LineageOS on the 2015 Galaxy A3"
 author: Pr0x1mas
+banner-image: /assets/galaxya3.webp
 ---
 
 I know this isn't the sort of content you might expect as the first post on my blog, but here we are. I recently installed LineageOS 14 on my old 2015 Samsung Galaxy A3, and thought I would share the process if for some reason you decide to trust me more than the many other sites explaining how to do this.
@@ -32,7 +33,11 @@ I am not responsible for bricked devices, dead SD cards, thermonuclear war, or y
 
 In order to flash a custom ROM, you must first install a custom recovery. These days, pretty much the only option for custom recoveries is TWRP, so that is what we are using today. 
 
-The first thing to do is power off the device, and then boot it into download mode. This can be done by holding down the home and volume down button, then holding the power button until the samsung logo appears, at which point release all of the buttons. Alternatively, use the ADB command `adb reboot download`
+The first thing to do is power off the device, and then boot it into download mode. This can be done by holding down the home and volume down button, then holding the power button until the samsung logo appears, at which point release all of the buttons. Alternatively, use the ADB command 
+
+{% highlight bash %}
+adb reboot download
+{% endhighlight %}
 
 You should now see the download mode screen, **do not press any buttons yet!**
 
@@ -53,9 +58,9 @@ Before we can install LineageOS, we need to remove the existing OS on the phone.
 
 Now to install Lineage itself. First, press the back button until you are on the main TWRP screen again. Go to Advanced>ADB Sideload, and open up a windows terminal in the same directory as the files you downloaded earlier. Swipe the arrow right to start sideload, then type the following command into your terminal:
 
-```
-adb sideload [LINEAGEOS ZIP FILENAME]
-```
+{% highlight bash %}
+adb sideload [LINEAGEOS ZIP FILENAME];
+{% endhighlight %}
 
 If all goes correctly, your device will have installed LineageOS. If there is an error, google it because I'm sure you are not the only person who has had this error.
 
@@ -67,9 +72,9 @@ Press 'back', and then go into 'ADB Sideload' again, before once more swiping ri
 
 I'm using the Micro package for this with LineageOS 17.1 which is Android 10.0, so my filename is `open_gapps-arm-10.0-micro-20210304.zip`, therefore the command I'll type into ADB is
 
-```
+{% highlight bash %}
 adb sideload open_gapps-arm-10.0-micro-20210304.zip
-```
+{% endhighlight %}
 
 If you are using a different package, adjust the command to fit the name of the file you downloaded.
 If the install ends with 'Updater process ended with ERROR: 70', then you must use a smaller package, such as Pico.
