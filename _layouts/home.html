@@ -5,6 +5,9 @@ layout: default
 {{content}}
 
 <script>
+
+
+
     maxImages = 5
 
     document.getElementById("main-site-title").style.backgroundImage = "url('/assets/slideshow" + Math.ceil(Math.random() * maxImages) + ".png')"
@@ -15,7 +18,7 @@ layout: default
 
     async function coolTitle(){
         titleText = document.getElementById("main-site-title-text");
-        targetTitleText = "pr0x1mas.github.io"
+        targetTitleText = "Pr0x1mas.github.io"
 
         for (i = 0; i < 9; i++){
             await sleep(100);

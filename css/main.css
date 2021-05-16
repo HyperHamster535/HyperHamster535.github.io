@@ -58,8 +58,9 @@ body {
     text-align: center;
     vertical-align: middle;
     line-height: calc(100vh - 56px);
-    font-weight: bolder;
-    font-style: italic;
+    /*font-weight: bolder;
+    font-style: italic;*/
+    font-family: "Android Euclid";
     font-size: 4em;
 }
 
