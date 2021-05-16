@@ -4,6 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
+## [Station-Keeper](https://pr0x1mas.github.io/station-keeper/)
+
+Fleet carrier finder for Elite: Dangerous.
+
 ## [InsultBot](https://pr0x1mas.github.io/InsultBot)
 
 A discord bot that insults you
@@ -23,10 +27,6 @@ Track the motion of a mass in your browser, basically [Tracker](https://physlets
 ## [js-problems](https://pr0x1mas.github.io/js-problems/)
 
 Solutions to various programming thought experiments like the weasel program, written in JavaScript spaghetti code
-
-## [Station-Keeper](https://pr0x1mas.github.io/station-keeper/)
-
-A very basic discord bot that tells you info about bodies in Elite: Dangerous.
 
 ## [PyWireframe](https://pr0x1mas.github.io/PyWireframe)
 
