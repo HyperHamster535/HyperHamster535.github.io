@@ -39,7 +39,7 @@ pre::-webkit-scrollbar {
     background: transparent;
 }
 
-code {
+pre {
     border-left: 2px solid teal;
     padding-left: 4px;
 }
