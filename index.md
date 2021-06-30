@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-<span onclick="scrollDown()" id="down-icon" class="material-icons-outlined md-18">expand_more</span>
+<span onclick="scrollDown()" id="down-icon" class="material-icons-round md-18">expand_more</span>
 
 <div style="background-image: url('/assets/slideshow1.png')" id="main-site-title">
     <h1 id="main-site-title-text"></h1>
@@ -14,9 +14,9 @@ title: Home
     {% for post in site.posts limit:1 %}
         <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
         <p style="margin-top: -16px; color: #FFFFFFB3;">
-            <span class="material-icons-outlined md-18 inline-icon">schedule</span> 
+            <span class="material-icons-round md-18 inline-icon">schedule</span> 
             {{ post.date | date: "%-d %B %Y" }}
-            <span class="material-icons-outlined md-18 inline-icon">account_circle</span>
+            <span class="material-icons-round md-18 inline-icon">account_circle</span>
             {{post.author}}
         </p>
         <i>{{ post.excerpt }}</i>

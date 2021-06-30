@@ -43,6 +43,7 @@ html, body {
 
 #main-site-title {
     width: 100vw;
+
     height: calc(100vh - 56px);
     margin-left: -32px;
     margin-top: -53px;
@@ -160,4 +161,9 @@ button:hover {
     #post-banner-image {
         width: 100vw;
     }
+}
+
+#page-content {
+    max-width: 100vw;
+    overflow-x: hidden;
 }
