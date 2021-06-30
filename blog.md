@@ -12,9 +12,9 @@ I have a blog. Not sure why, it's not like anyone will ever read it, but here we
   {% for post in site.posts %}
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <p style="margin-top: -16px; color: #FFFFFFB3;">
-      <span class="material-icons-round md-18 inline-icon">schedule</span> 
+      <span class="material-icons-outlined md-18 inline-icon">schedule</span> 
        {{ post.date | date: "%-d %B %Y" }}
-      <span class="material-icons-round md-18 inline-icon">account_circle</span>
+      <span class="material-icons-outlined md-18 inline-icon">account_circle</span>
        {{post.author}}
     </p>
     {{post.excerpt}}
