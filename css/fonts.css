@@ -4,7 +4,7 @@
     src: url(/assets/AndroidEuclid.woff2);
 }
 
-p, a, button, li {
+p, a, button, li, td {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
 }

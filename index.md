@@ -19,7 +19,7 @@ title: Home
             <span class="material-icons-outlined md-18 inline-icon">account_circle</span>
             {{post.author}}
         </p>
-        <i>{{ post.excerpt }}</i>
+        <i>{{ post.excerpt}}</i>
     {% endfor %}
 </div>
 
