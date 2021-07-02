@@ -12,7 +12,7 @@ title: Home
 <div class="home-section grey">
     <h1>Latest Blog Post</h1>
     {% for post in site.posts limit:1 %}
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <h3>{{ post.title }}</h3>
         <p style="margin-top: -16px; color: #FFFFFFB3;">
             <span class="material-icons-outlined md-18 inline-icon">schedule</span> 
             {{ post.date | date: "%-d %B %Y" }}
@@ -20,6 +20,7 @@ title: Home
             {{post.author}}
         </p>
         <i>{{ post.excerpt}}</i>
+        <a href="{{ post.url }}"><button>View Post</button></a>
     {% endfor %}
 </div>
 
