@@ -1,8 +1,8 @@
 
-@font-face {
+/*@font-face {
     font-family: "Android Euclid";
     src: url(/assets/AndroidEuclid.woff2);
-}
+}*/
 
 p, a, button, li, td {
     font-family: 'Rubik', sans-serif;
@@ -10,7 +10,7 @@ p, a, button, li, td {
 }
 
 h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 *{
-    font-family: "Android Euclid", 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 300;
 }
 
