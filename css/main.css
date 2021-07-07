@@ -6,13 +6,9 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-color: #121212;
-    color: white;
 }
 
 #page-title {
-    background-color: #03DAC6;
-    color: white;
     margin-left: -32px;
     margin-right: -32px;
     padding: 32px;
@@ -24,7 +20,6 @@ body {
 }
 
 a:link, a:visited {
-    color: #03DAC6;
     text-decoration: none;
 }
 
@@ -80,14 +75,6 @@ html, body {
     overflow: auto;
 }
 
-.home-section.teal {
-    background-color: #03DAC6;
-}
-
-.home-section.grey {
-    background-color: #424242;
-}
-
 .section-text, .section-image {
     width: 45%;
     margin: 0px !important;
@@ -110,8 +97,6 @@ html, body {
 }
 
 button {
-    background-color: #03DAC6;
-    color: white;
     border: none;
     padding: 8px;
     cursor: pointer;
@@ -173,7 +158,6 @@ button:hover {
 
 .project-card {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
-    background-color: #424242;
     padding: 16px;
     display: inline-block;
     margin: 8px;

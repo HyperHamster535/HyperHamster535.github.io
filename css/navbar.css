@@ -3,7 +3,6 @@ nav {
     position: fixed;
     height: 56px;
     width: 100%;
-    background-color: #424242;
     color: var(--main-bg-color);
     z-index: 1;
 }
@@ -15,12 +14,10 @@ nav * {
 
 .nav-link {
     text-decoration: none;
-    color: #03DAC6 !important;
     padding-right: 8px;
 }
 
 .nav-link:hover {
-    color: white !important;
     text-decoration: none;
 }
 
@@ -49,13 +46,13 @@ nav * {
 }
 
 .nav-icon {
-    color: #03DAC6 !important;
     line-height: 56px !important;
     padding-right: 16px;
     text-align: right;
     display: inline-block;
     transition: all ease-in-out .2s;
     transform-origin: 12px 28px;
+    cursor: pointer;
 }
 
 #nav-menu-icon {
@@ -63,7 +60,6 @@ nav * {
 }
 
 #nav-menu {
-    background-color: #424242;
     height: 100%;
     position: fixed;
     right: -230px;
@@ -76,14 +72,12 @@ nav * {
 
 .nav-menu-link {
     text-decoration: none;
-    color: #03DAC6 !important;
     padding-left: 32px;
     font-size: larger;
 }
 
-hr {
+#nav-menu hr {
     width: calc(100% - 30px);
-    border: .1px solid #e5e5e533;
 }
 
 #nav-menu-list {

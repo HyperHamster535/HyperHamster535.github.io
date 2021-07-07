@@ -1,0 +1,50 @@
+body { 
+    background-color: #121212;
+    color: white;
+}
+
+#page-title {
+    background-color: #03DAC6;
+    color: white;
+}
+
+a:link, a:visited {
+    color: #03DAC6;
+}
+
+.home-section.teal {
+    background-color: #03DAC6;
+}
+
+.home-section.grey {
+    background-color: #424242;
+}
+
+button {
+    background-color: #03DAC6;
+    color: white;
+}
+
+.project-card {
+    background-color: #424242;
+}
+
+.nav-link, .nav-icon, .nav-menu-link {
+    color: #03DAC6 !important;
+}
+
+.nav-link:hover, .nav-icon:hover, .nav-menu-link:hover {
+    color: white !important;
+}
+
+#nav-menu {
+    background-color: #424242;
+}
+
+#nav-menu hr {
+    border: .1px solid #e5e5e533;
+}
+
+nav {
+    background-color: #424242;
+}

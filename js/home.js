@@ -1,13 +1,3 @@
----
-layout: default
----
-
-{{content}}
-
-<script>
-
-
-
     maxImages = 5
 
     document.getElementById("main-site-title").style.backgroundImage = "url('/assets/slideshow" + Math.ceil(Math.random() * maxImages) + ".png')"
@@ -70,4 +60,3 @@ layout: default
     document.getElementById("channel-trailer").style.height = (document.getElementById("channel-trailer").clientWidth / 16)*9
     coolTitle();
     runImageSlideshow();
-</script>

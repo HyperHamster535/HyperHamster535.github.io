@@ -1,0 +1,56 @@
+body { 
+    background-color: white;
+    color: black;
+}
+
+#page-title {
+    background-color: teal;
+    color: white;
+}
+
+a:link, a:visited {
+    color: teal;
+}
+
+.home-section.teal {
+    background-color: teal;
+    color: white;
+}
+
+.home-section.grey {
+    background-color: lightgrey;
+}
+
+button {
+    background-color: teal;
+    color: white;
+}
+
+.project-card {
+    background-color: lightgrey;
+}
+
+.nav-link, .nav-icon, .nav-menu-link {
+    color: teal !important;
+}
+
+.nav-link:hover, .nav-icon:hover, .nav-menu-link:hover {
+    color: black !important;
+}
+
+#nav-menu {
+    background-color: lightgrey;
+}
+
+#nav-menu hr {
+    border: .1px solid #3a3a3a33;
+}
+
+#main-site-title, #down-icon {
+    color: white;
+}
+
+nav {
+    background-color: white;
+}
+
