@@ -2,25 +2,20 @@ nav {
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
     position: fixed;
     height: 56px;
-    box-sizing: border-box;
     width: 100%;
     background-color: #424242;
     color: var(--main-bg-color);
-    top: 0px;
     z-index: 1;
 }
 
-
-#navbar-container {
-    max-width: 1000px;
-    height: inherit;
+nav * {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .nav-link {
     text-decoration: none;
     color: #03DAC6 !important;
-    vertical-align: middle;
-    line-height: 56px;
     padding-right: 8px;
 }
 
@@ -30,11 +25,7 @@ nav {
 }
 
 #nav-link-container {
-    margin: 0;
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 16;
+    float: right;
 }
 
 #nav-logo{
@@ -53,19 +44,22 @@ nav {
     }
 
     #nav-menu-icon {
-        display: block !important;
+        display: inline-block !important;
     }
 }
 
-#nav-menu-icon {
+.nav-icon {
     color: #03DAC6 !important;
-    vertical-align: middle;
-    line-height: 56px;
+    line-height: 56px !important;
     padding-right: 16px;
     text-align: right;
-    display: none;
+    display: inline-block;
     transition: all ease-in-out .2s;
     transform-origin: 12px 28px;
+}
+
+#nav-menu-icon {
+    display: none;
 }
 
 #nav-menu {
