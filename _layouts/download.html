@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div id="page-title">
+    <h1>Download {{ page.title }}</h1>
+</div>
+<br>
+<ul>
+    <li>Publisher: {{ page.publisher }}</li>
+    <li>Year: {{ page.year }}</li>
+    <li>Format: {{ page.format }}</li>
+</ul>
+
+<a href="/_downloads/files/{{ page.filename }}"><button>Download</button></a>
+
+{{content}}
